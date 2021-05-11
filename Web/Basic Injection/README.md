@@ -32,6 +32,6 @@ Data: jowls
 Name: Chunbucket
 Data: @datboiiii
 </pre>
-<br><br>
+<br>
 Step-4: <br><br>
-The desired flag <code> CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs} </code> can be found in line number 12 of the above output.
+The desired flag <code> CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
