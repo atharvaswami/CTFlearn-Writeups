@@ -4,16 +4,17 @@
 <p>See if you can leak the whole database using what you know about SQL Injections.</p>
 
 <h4>Step-1:</h4>
-After visiting the given URL <a>https://web.ctflearn.com/web4/</a>, you will be asked to input something and then submit it. <br><br>
+<p>After visiting the given URL <a>https://web.ctflearn.com/web4/</a>, you will be asked to input something and then submit it.</p>
 
-Step-2: <br><br>
-Inspect the input text box. <br><br>
-You will find the line given below. <br><br>
-<code> Try some names like Hiroki, Noah, Luke </code> <br><br>
+<h4>Step-2:</h4>
+<p>Inspect the input text box.</p>
+<p>You will find the line given below.</p>
+<p><code> Try some names like Hiroki, Noah, Luke </code></p>
 
-Step-3: <br><br>
-You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database. <br><br>
-I submitted the input <code> Lucifer' OR ' 1 = 1</code>  and got the following output: <br><br>
+<h4>Step-3:</h4>
+<p>You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database.</p>
+<p>I submitted the input <code> Lucifer' OR ' 1 = 1</code>  and got the following output:</p>
+<p>
 <pre>
 Name: Luke
 Data: I made this problem.
@@ -32,6 +33,7 @@ Data: jowls
 Name: Chunbucket
 Data: @datboiiii
 </pre>
-<br>
-Step-4: <br><br>
-The desired flag <code> CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
+</p>
+
+<h4>Step-4:</h4>
+<p>The desired flag <code> CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
