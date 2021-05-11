@@ -3,7 +3,7 @@
 <h4>Problem Statement:</h4>
 <p>See if you can leak the whole database using what you know about SQL Injections.</p>
 
-<>h4Step-1:</h4>
+<h4>Step-1:</h4>
 After visiting the given URL <a>https://web.ctflearn.com/web4/</a>, you will be asked to input something and then submit it. <br><br>
 
 Step-2: <br><br>
