@@ -14,9 +14,9 @@ You will find the line given below. <br>
 Step-3: <br>
 You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database. <br>
 I submitted the input <code> Lucifer' OR ' 1 = 1 </code> and got the following output: <br>
-<code>
-Name: Luke \n
-Data: I made this problem. \n
+<pre>
+Name: Luke
+Data: I made this problem.
 Name: Alec \n
 Data: Steam boys. \n
 Name: Jalen \n
@@ -31,7 +31,7 @@ Name: snoutpop \n
 Data: jowls \n
 Name: Chunbucket \n
 Data: @datboiiii \n
-</code>
+</pre>
 
 Step-4: <br>
 The desired flag <code>CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
