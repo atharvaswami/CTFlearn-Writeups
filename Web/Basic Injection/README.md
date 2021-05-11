@@ -13,7 +13,7 @@ You will find the line given below. <br><br>
 
 Step-3: <br><br>
 You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database. <br><br>
-I submitted the input <code> Lucifer' OR ' 1 = 1 </code> and got the following output: <br><br>
+I submitted the input <code> Lucifer' OR ' 1 = 1 </code>  and got the following output: <br><br>
 <pre>
 Name: Luke
 Data: I made this problem.
@@ -32,6 +32,6 @@ Data: jowls
 Name: Chunbucket
 Data: @datboiiii
 </pre>
-
+<br><br>
 Step-4: <br><br>
-The desired flag <code>CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}</code> can be found in line number 12 of the above output.
+The desired flag <code> CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs} </code> can be found in line number 12 of the above output.
