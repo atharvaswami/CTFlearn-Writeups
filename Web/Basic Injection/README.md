@@ -13,7 +13,7 @@ You will find the line given below. <br><br>
 
 Step-3: <br><br>
 You will find no flag even after submitting the above names. Now try basic SQL payloads in the existing database. <br><br>
-I submitted the input <code> Lucifer' OR ' 1 = 1 </code>  and got the following output: <br><br>
+I submitted the input <code> Lucifer' OR ' 1 = 1</code>  and got the following output: <br><br>
 <pre>
 Name: Luke
 Data: I made this problem.
