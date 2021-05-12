@@ -11,7 +11,7 @@
 <p>Run the command <code>strings 95f6edfb66ef42d774a5a34581f19052.jpg</code> to find the hidden text inside the image.</p>
 
 <h4>Step-3:</h4>
-<p>The output is given in the file output.txt</p>
+<p>The output is given in the file <a href="./output.txt">output.txt</a></p>
 
 <h4>Step-4:</h4>
 <p>You will find the flag in the 8<sup>th</sup> line from the end of the output: <code>flag{wow!_data_is_cool}</code></p>
