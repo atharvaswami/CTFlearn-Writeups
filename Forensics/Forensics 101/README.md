@@ -12,7 +12,7 @@
 
 <h4>Step-3:</h4>
 <p>The output is:</p>
-<p><pre>
+<p><pre><code>
 JFIF
  , #&')*)
 -0-(0%()(
@@ -136,7 +136,7 @@ Xm*CnC
 ax+p
 bdQG
 D_ O
-</pre></p>
+</code></pre></p>
 
 <h4>Step-4:</h4>
 <p>You will find the flag in the 119<sup>th</sup> line of the output: <code>flag{wow!_data_is_cool}</code><p>
