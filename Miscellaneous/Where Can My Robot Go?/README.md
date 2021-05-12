@@ -5,7 +5,7 @@
 <p>Hint: What does disallow tell a robot?</p>
 
 <h4>Step-1:</h4>
-<p>A robots.txt file tells search engine crawlers which pages or files the crawler can or can't request from your site. So go to the url <a>https://ctflearn.com/robots.txt</a> to get some hint.</p>
+<p>A robots.txt file tells search engine crawlers which pages or files the crawler can or can't request from your site. So go to the url <a href="https://ctflearn.com/robots.txt">https://ctflearn.com/robots.txt</a> to get some hint.</p>
 
 <h4>Step-2:</h4>
 <p>The output seen is:</p>
@@ -15,7 +15,7 @@ Disallow: /70r3hnanldfspufdsoifnlds.html
 </pre></p>
 
 <h4>Step-3:</h4>
-<p>Now go to the url <a>https://ctflearn.com/70r3hnanldfspufdsoifnlds.html</a> where you will find the flag.</p>
+<p>Now go to the url <a href="https://ctflearn.com/robots.txt">https://ctflearn.com/70r3hnanldfspufdsoifnlds.html</a> where you will find the flag.</p>
 
 <h4>Step-4:</h4>
 <p>The flag found on the above webpage is <code>CTFlearn{r0b0ts_4r3_th3_futur3}</code></p>
