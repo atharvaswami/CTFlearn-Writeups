@@ -14,4 +14,4 @@
 <p>The output is given in the file <a href="./output.txt">output.txt</a></p>
 
 <h4>Step-4:</h4>
-<p>You will find the flag in the 8<sup>th</sup> line from the end of the output: <code>flag{wow!_data_is_cool}</code></p>
+<p>You will find the flag in the 116<sup>th</sup> line of the output: <code>flag{wow!_data_is_cool}</code></p>
