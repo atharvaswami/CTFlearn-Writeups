@@ -21,6 +21,7 @@ with open('data.dat') as F:
 print("CTFlearn{" + str(flag) + "}")
 F.close()
 </pre>
+<p>Or else download the script from <a href="./getFlag.py">getFlag.py</a>.
 
 <h4>Step-3:</h4>
 <p>Execute the above file using the command <code>python3 getFlag.py</code>. The output will give you the flag.
