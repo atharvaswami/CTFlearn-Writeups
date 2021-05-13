@@ -9,19 +9,20 @@
 <h4>Step-2:</h4>
 <p>Create a python script file using the code given below:</p>
 <pre>
-<code>
-ans=0
-with open('data.dat') as F:
-    L = F.readlines()  
-    for S in L:
-        try:
-            if(S.count('0')%3==0 or S.count('1')%2==0):
-                ans+=1
-        except EOFError:
-            break
-print("CTFlearn{" + str(ans) + "}")
-F.close()
-</code>
+<pre><span class="pl-s1">count</span> <span class="pl-c1">=</span> <span class="pl-c1">0</span>
+
+<span class="pl-s1">file</span> <span class="pl-c1">=</span> <span class="pl-s">'data.dat'</span>
+
+<span class="pl-k">with</span> <span class="pl-en">open</span>(<span class="pl-s1">file</span>) <span class="pl-k">as</span> <span class="pl-s1">f</span>:    
+        <span class="pl-s1">l</span> <span class="pl-c1">=</span> <span class="pl-s1">f</span>.<span class="pl-en">readlines</span>()
+        <span class="pl-k">for</span> <span class="pl-s1">line</span> <span class="pl-c1">in</span> <span class="pl-s1">l</span>:
+                <span class="pl-s1">zero</span> <span class="pl-c1">=</span> <span class="pl-s1">line</span>.<span class="pl-en">count</span>(<span class="pl-s">'0'</span>)
+                <span class="pl-s1">one</span> <span class="pl-c1">=</span> <span class="pl-s1">line</span>.<span class="pl-en">count</span>(<span class="pl-s">'1'</span>)
+                <span class="pl-k">if</span> (<span class="pl-s1">zero</span><span class="pl-c1">%</span><span class="pl-c1">3</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>) <span class="pl-c1">or</span> (<span class="pl-s1">one</span><span class="pl-c1">%</span><span class="pl-c1">2</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>):
+                        <span class="pl-s1">count</span> <span class="pl-c1">=</span> <span class="pl-s1">count</span> <span class="pl-c1">+</span> <span class="pl-c1">1</span>
+
+<span class="pl-en">print</span>(<span class="pl-s">"Number of lines: "</span> <span class="pl-c1">+</span> <span class="pl-en">str</span>(<span class="pl-s1">count</span>))
+<span class="pl-s1">f</span>.<span class="pl-en">close</span>()</pre>
 </pre>
 
 <h4>Step-3:</h4>
