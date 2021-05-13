@@ -7,21 +7,7 @@
 <p>Download the file <code>data.dat</code> from the given Cloud URL.</p>
 
 <h4>Step-2:</h4>
-<p>Create a python script file using the code given below:</p>
-<pre>
-flag=0
-with open('data.dat') as F:
-    L = F.readlines()  
-    for S in L:
-        try:
-            if(S.count('0')%3==0 or S.count('1')%2==0):
-                flag+=1
-        except EOFError:
-            break
-print("CTFlearn{" + str(flag) + "}")
-F.close()
-</pre>
-<p>Or else download the script from <a href="./getFlag.py">getFlag.py</a>.
+<p>Create a python script file using the code from <a href="./getFlag.py">getFlag.py</a></p>
 
 <h4>Step-3:</h4>
 <p>Execute the above file using the command <code>python3 getFlag.py</code>. The output will give you the flag.
