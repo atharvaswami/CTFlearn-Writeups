@@ -8,7 +8,7 @@
 <p><code>ROXy</code> gives us the clue that we need to take the XOR of given 2 hexadecimal numbers.</p>
 
 <h4>Step-2:</h4>
-<p>Use the URL <a href="http://xor.pw/#">http://xor.pw/#</a> to find the flag.
+<p>Use the URL <a href="http://xor.pw/#">http://xor.pw/#</a> to calculate the XOR.
   
-<h4>Step-2:</h4>
+<h4>Step-3:</h4>
 <p>The desired flag is <code>CTFlearn{0xc0ded}</code></p>
