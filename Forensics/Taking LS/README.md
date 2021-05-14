@@ -28,7 +28,8 @@ drwxr-xr-x 1 atharva 197121  0 May 15 00:07 ../
 </pre>
 
 <h4>Step-4:</h4>
-Acquire the password from the file <code>ThePassword.txt</code> using the command <code>cat ThePassword.txt</code>. The text found inside this file is <code>Nice Job!  The Password is "Im The Flag".</code></p>
+Acquire the password from the file <code>ThePassword.txt</code> using the command <code>cat ThePassword.txt</code>. The text found inside this file is:</p>
+<code>Nice Job!  The Password is "Im The Flag".</code>
 
 <h4>Step-5:</h4>
 <p>Input the password <code>Im The Flag</code> to open the file <code>The Flag.pdf</code>.
